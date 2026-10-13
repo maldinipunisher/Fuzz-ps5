@@ -1,0 +1,17 @@
+# PS5 Fuzzer Log — 20261013_204509
+# Source: 192.168.100.254
+
+=== PS5 Sony Syscall Safe Fuzzer ===
+Total targets: 133 (excluding syscall 55)
+Skipping first 122 (already tested)
+Each line logged BEFORE syscall
+
+[122] idx=122 sc=666 nargs=3 BEFORE(0,0,0)
+[122] sc=666(0) ret=22 errno=22
+[122] idx=122 sc=666 BEFORE(buf,0x1000,0)
+[122] idx=122 sc=666 BEFORE(-1,0,0)
+[123] idx=123 sc=667 nargs=2 BEFORE(0,0,0)
+[123] sc=667(0) ret=14 errno=22
+[123] idx=123 sc=667 BEFORE(buf,0x1000,0)
+[123] idx=123 sc=667 BEFORE(-1,0,0)
+[124] idx=124 sc=668 nargs=2 BEFORE(0,0,0)

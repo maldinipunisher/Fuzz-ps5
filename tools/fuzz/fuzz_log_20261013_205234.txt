@@ -1,0 +1,36 @@
+# PS5 Fuzzer Log — 20261013_205234
+# Source: 192.168.100.254
+
+=== PS5 Syscall 622 Deep Analysis ===
+CONFIRMED: (buf_ptrs, buf2, buf3, ...) → ret=0, wrote to buf3
+Output was: 01 00 0e 80
+
+--- Test 1: Reproduce (zeroed bufs) ---
+
+[*] BEFORE sc622(b0, b1, b2_out, b3, b4, b5)
+    ret=0 errno=22 (Invalid argument)
+    OUTPUT: 4 bytes changed (off 0-3)
+    01 00 0e 80 cc cc cc cc cc cc cc cc cc cc cc cc 
+    cc cc cc 
+
+--- Test 2: Find all output args ---
+
+[*] BEFORE output=arg0
+    ret=0 errno=22 (Invalid argument)
+[*] BEFORE output=arg1
+    ret=0 errno=22 (Invalid argument)
+[*] BEFORE output=arg2
+    ret=0 errno=22 (Invalid argument)
+    OUTPUT: 4 bytes changed (off 0-3)
+    01 00 0e 80 cc cc cc cc cc cc cc cc cc cc cc cc 
+    cc cc cc 
+[*] BEFORE output=arg3
+    ret=0 errno=22 (Invalid argument)
+[*] BEFORE output=arg4
+    ret=0 errno=22 (Invalid argument)
+[*] BEFORE output=arg5
+    ret=0 errno=22 (Invalid argument)
+
+--- Test 3: Minimal required args ---
+
+[*] BEFORE sc622(0, 0, buf_out, 0, 0, 0)

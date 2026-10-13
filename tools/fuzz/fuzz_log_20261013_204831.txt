@@ -1,0 +1,7 @@
+# PS5 Fuzzer Log — 20261013_204831
+# Source: 192.168.100.254
+
+=== Deep Crash Analysis: syscall 429 (survived 0, crashed buf) ===
+nargs=2, TARGET_IDX=0
+
+[01] BEFORE sc=429(buf_ptrs, buf2, buf3, buf4, buf5, buf6)

@@ -1,0 +1,21 @@
+# PS5 Fuzzer Log — 20261013_204917
+# Source: 192.168.100.254
+
+=== Deep Crash Analysis: syscall 522 (crashed 0, nargs=6) ===
+nargs=6, TARGET_IDX=1
+
+[01] BEFORE sc=522(buf_ptrs, buf2, buf3, buf4, buf5, buf6)
+[01] ret=9 errno=22 (Invalid argument)
+
+[02] BEFORE sc=522(1, 1, 1, 1, 1, 1)
+[02] ret=14 errno=22 (Invalid argument)
+
+[03] BEFORE sc=522(buf{1,0x100,ptr,0x1000}, 0x100, buf2, ...)
+[03] ret=14 errno=22 (Invalid argument)
+
+[04] BEFORE sc=522(fd=16, buf, 0x1000, ...)
+[04] ret=14 errno=22 (Invalid argument)
+
+--- Test 5: Isolate crash arg ---
+
+[05] BEFORE sc=522(1,0,0,0,0,0)

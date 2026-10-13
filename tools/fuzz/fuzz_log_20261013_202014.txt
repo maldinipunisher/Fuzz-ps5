@@ -1,0 +1,9 @@
+# PS5 Fuzzer Log — 20261013_202014
+# Source: 192.168.100.254
+
+[+] Logger connected to 192.168.100.24:9024
+[*] Targeting 134 Sony-specific syscalls
+[*] Using 12 edge-case values per syscall
+
+=== Syscall 55 (nargs=1) [1/134] ===
+[*] Fuzzing syscall 55 with NULL args

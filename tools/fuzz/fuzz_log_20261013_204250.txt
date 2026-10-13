@@ -1,0 +1,261 @@
+# PS5 Fuzzer Log — 20261013_204250
+# Source: 192.168.100.254
+
+=== PS5 Sony Syscall Safe Fuzzer ===
+Total targets: 133 (excluding syscall 55)
+Skipping first 26 (already tested)
+Each line logged BEFORE syscall
+
+[026] idx=26 sc=534 nargs=2 BEFORE(0,0,0)
+[026] sc=534(0) ret=9 errno=22
+[026] idx=26 sc=534 BEFORE(buf,0x1000,0)
+[026] idx=26 sc=534 BEFORE(-1,0,0)
+[027] idx=27 sc=535 nargs=4 BEFORE(0,0,0)
+[027] sc=535(0) ret=1 errno=22
+[027] idx=27 sc=535 BEFORE(buf,0x1000,0)
+[027] idx=27 sc=535 BEFORE(-1,0,0)
+[028] idx=28 sc=536 nargs=3 BEFORE(0,0,0)
+[028] sc=536(0) ret=1 errno=22
+[028] idx=28 sc=536 BEFORE(buf,0x1000,0)
+[028] idx=28 sc=536 BEFORE(-1,0,0)
+[029] idx=29 sc=538 nargs=3 BEFORE(0,0,0)
+[029] sc=538(0) ret=22 errno=22
+[029] idx=29 sc=538 BEFORE(buf,0x1000,0)
+[029] idx=29 sc=538 BEFORE(-1,0,0)
+[030] idx=30 sc=539 nargs=1 BEFORE(0,0,0)
+[030] sc=539(0) ret=3 errno=22
+[030] idx=30 sc=539 BEFORE(buf,0x1000,0)
+[030] idx=30 sc=539 BEFORE(-1,0,0)
+[031] idx=31 sc=541 nargs=1 BEFORE(0,0,0)
+[031] sc=541(0) ret=3 errno=22
+[031] idx=31 sc=541 BEFORE(buf,0x1000,0)
+[031] idx=31 sc=541 BEFORE(-1,0,0)
+[032] idx=32 sc=542 nargs=5 BEFORE(0,0,0)
+[032] sc=542(0) ret=22 errno=22
+[032] idx=32 sc=542 BEFORE(buf,0x1000,0)
+[032] idx=32 sc=542 BEFORE(-1,0,0)
+[033] idx=33 sc=543 nargs=4 BEFORE(0,0,0)
+[033] sc=543(0) ret=22 errno=22
+[033] idx=33 sc=543 BEFORE(buf,0x1000,0)
+[033] idx=33 sc=543 BEFORE(-1,0,0)
+[034] idx=34 sc=544 nargs=2 BEFORE(0,0,0)
+[034] sc=544(0) ret=3 errno=22
+[034] idx=34 sc=544 BEFORE(buf,0x1000,0)
+[034] idx=34 sc=544 BEFORE(-1,0,0)
+[035] idx=35 sc=546 nargs=3 BEFORE(0,0,0)
+[035] sc=546(0) ret=3 errno=22
+[035] idx=35 sc=546 BEFORE(buf,0x1000,0)
+[035] idx=35 sc=546 BEFORE(-1,0,0)
+[036] idx=36 sc=547 nargs=2 BEFORE(0,0,0)
+[036] sc=547(0) ret=13 errno=22
+[036] idx=36 sc=547 BEFORE(buf,0x1000,0)
+[036] idx=36 sc=547 BEFORE(-1,0,0)
+[037] idx=37 sc=548 nargs=5 BEFORE(0,0,0)
+[037] *** sc=548(0) = SUCCESS ret=0 ***
+[037] idx=37 sc=548 BEFORE(buf,0x1000,0)
+[037] idx=37 sc=548 BEFORE(-1,0,0)
+[037] *** sc=548(-1) = SUCCESS ret=0 ***
+[038] idx=38 sc=549 nargs=4 BEFORE(0,0,0)
+[038] sc=549(0) ret=22 errno=22
+[038] idx=38 sc=549 BEFORE(buf,0x1000,0)
+[038] idx=38 sc=549 BEFORE(-1,0,0)
+[039] idx=39 sc=550 nargs=1 BEFORE(0,0,0)
+[039] sc=550(0) ret=3 errno=22
+[039] idx=39 sc=550 BEFORE(buf,0x1000,0)
+[039] idx=39 sc=550 BEFORE(-1,0,0)
+[040] idx=40 sc=551 nargs=1 BEFORE(0,0,0)
+[040] sc=551(0) ret=14 errno=22
+[040] idx=40 sc=551 BEFORE(buf,0x1000,0)
+[040] idx=40 sc=551 BEFORE(-1,0,0)
+[041] idx=41 sc=552 nargs=1 BEFORE(0,0,0)
+[041] sc=552(0) ret=3 errno=22
+[041] idx=41 sc=552 BEFORE(buf,0x1000,0)
+[041] idx=41 sc=552 BEFORE(-1,0,0)
+[042] idx=42 sc=553 nargs=3 BEFORE(0,0,0)
+[042] sc=553(0) ret=22 errno=22
+[042] idx=42 sc=553 BEFORE(buf,0x1000,0)
+[042] idx=42 sc=553 BEFORE(-1,0,0)
+[043] idx=43 sc=554 nargs=2 BEFORE(0,0,0)
+[043] sc=554(0) ret=22 errno=22
+[043] idx=43 sc=554 BEFORE(buf,0x1000,0)
+[043] idx=43 sc=554 BEFORE(-1,0,0)
+[044] idx=44 sc=555 nargs=2 BEFORE(0,0,0)
+[044] sc=555(0) ret=22 errno=22
+[044] idx=44 sc=555 BEFORE(buf,0x1000,0)
+[044] idx=44 sc=555 BEFORE(-1,0,0)
+[045] idx=45 sc=556 nargs=3 BEFORE(0,0,0)
+[045] sc=556(0) ret=3 errno=22
+[045] idx=45 sc=556 BEFORE(buf,0x1000,0)
+[045] idx=45 sc=556 BEFORE(-1,0,0)
+[046] idx=46 sc=560 nargs=1 BEFORE(0,0,0)
+[046] sc=560(0) ret=16 errno=22
+[046] idx=46 sc=560 BEFORE(buf,0x1000,0)
+[046] *** sc=560(buf) = SUCCESS ret=0 ***
+[046] idx=46 sc=560 BEFORE(-1,0,0)
+[047] idx=47 sc=563 nargs=1 BEFORE(0,0,0)
+[047] *** sc=563(0) = SUCCESS ret=0 ***
+[047] idx=47 sc=563 BEFORE(buf,0x1000,0)
+[047] idx=47 sc=563 BEFORE(-1,0,0)
+[048] idx=48 sc=565 nargs=3 BEFORE(0,0,0)
+[048] *** sc=565(0) = SUCCESS ret=0 ***
+[048] idx=48 sc=565 BEFORE(buf,0x1000,0)
+[048] idx=48 sc=565 BEFORE(-1,0,0)
+[049] idx=49 sc=566 nargs=3 BEFORE(0,0,0)
+[049] *** sc=566(0) = SUCCESS ret=0 ***
+[049] idx=49 sc=566 BEFORE(buf,0x1000,0)
+[049] idx=49 sc=566 BEFORE(-1,0,0)
+[050] idx=50 sc=567 nargs=3 BEFORE(0,0,0)
+[050] sc=567(0) ret=3 errno=22
+[050] idx=50 sc=567 BEFORE(buf,0x1000,0)
+[050] idx=50 sc=567 BEFORE(-1,0,0)
+[051] idx=51 sc=572 nargs=4 BEFORE(0,0,0)
+[051] sc=572(0) ret=13 errno=22
+[051] idx=51 sc=572 BEFORE(buf,0x1000,0)
+[051] idx=51 sc=572 BEFORE(-1,0,0)
+[052] idx=52 sc=585 nargs=0 BEFORE(0,0,0)
+[052] *** sc=585(0) = SUCCESS ret=0 ***
+[052] idx=52 sc=585 BEFORE(buf,0x1000,0)
+[052] *** sc=585(buf) = SUCCESS ret=0 ***
+[052] idx=52 sc=585 BEFORE(-1,0,0)
+[052] *** sc=585(-1) = SUCCESS ret=0 ***
+[053] idx=53 sc=586 nargs=1 BEFORE(0,0,0)
+[053] *** sc=586(0) = SUCCESS ret=0 ***
+[053] idx=53 sc=586 BEFORE(buf,0x1000,0)
+[053] idx=53 sc=586 BEFORE(-1,0,0)
+[053] *** sc=586(-1) = SUCCESS ret=0 ***
+[054] idx=54 sc=587 nargs=2 BEFORE(0,0,0)
+[054] *** sc=587(0) = SUCCESS ret=0 ***
+[054] idx=54 sc=587 BEFORE(buf,0x1000,0)
+[054] idx=54 sc=587 BEFORE(-1,0,0)
+[055] idx=55 sc=588 nargs=3 BEFORE(0,0,0)
+[055] sc=588(0) ret=22 errno=22
+[055] idx=55 sc=588 BEFORE(buf,0x1000,0)
+[055] idx=55 sc=588 BEFORE(-1,0,0)
+[056] idx=56 sc=591 nargs=3 BEFORE(0,0,0)
+[056] sc=591(0) ret=14 errno=22
+[056] idx=56 sc=591 BEFORE(buf,0x1000,0)
+[056] idx=56 sc=591 BEFORE(-1,0,0)
+[057] idx=57 sc=592 nargs=3 BEFORE(0,0,0)
+[057] sc=592(0) ret=12 errno=22
+[057] idx=57 sc=592 BEFORE(buf,0x1000,0)
+[057] idx=57 sc=592 BEFORE(-1,0,0)
+[058] idx=58 sc=593 nargs=2 BEFORE(0,0,0)
+[058] sc=593(0) ret=14 errno=22
+[058] idx=58 sc=593 BEFORE(buf,0x1000,0)
+[058] idx=58 sc=593 BEFORE(-1,0,0)
+[059] idx=59 sc=594 nargs=4 BEFORE(0,0,0)
+[059] sc=594(0) ret=14 errno=22
+[059] idx=59 sc=594 BEFORE(buf,0x1000,0)
+[059] idx=59 sc=594 BEFORE(-1,0,0)
+[060] idx=60 sc=595 nargs=3 BEFORE(0,0,0)
+[060] sc=595(0) ret=3 errno=22
+[060] idx=60 sc=595 BEFORE(buf,0x1000,0)
+[060] idx=60 sc=595 BEFORE(-1,0,0)
+[061] idx=61 sc=596 nargs=0 BEFORE(0,0,0)
+[061] *** sc=596(0) = SUCCESS ret=0 ***
+[061] idx=61 sc=596 BEFORE(buf,0x1000,0)
+[061] *** sc=596(buf) = SUCCESS ret=0 ***
+[061] idx=61 sc=596 BEFORE(-1,0,0)
+[061] *** sc=596(-1) = SUCCESS ret=0 ***
+[062] idx=62 sc=598 nargs=2 BEFORE(0,0,0)
+[062] sc=598(0) ret=14 errno=22
+[062] idx=62 sc=598 BEFORE(buf,0x1000,0)
+[062] idx=62 sc=598 BEFORE(-1,0,0)
+[063] idx=63 sc=599 nargs=0 BEFORE(0,0,0)
+[063] *** sc=599(0) = SUCCESS ret=0 ***
+[063] idx=63 sc=599 BEFORE(buf,0x1000,0)
+[063] *** sc=599(buf) = SUCCESS ret=0 ***
+[063] idx=63 sc=599 BEFORE(-1,0,0)
+[063] *** sc=599(-1) = SUCCESS ret=0 ***
+[064] idx=64 sc=600 nargs=1 BEFORE(0,0,0)
+[064] sc=600(0) ret=14 errno=22
+[064] idx=64 sc=600 BEFORE(buf,0x1000,0)
+[064] *** sc=600(buf) = SUCCESS ret=0 ***
+[064] idx=64 sc=600 BEFORE(-1,0,0)
+[065] idx=65 sc=601 nargs=3 BEFORE(0,0,0)
+[065] sc=601(0) ret=14 errno=22
+[065] idx=65 sc=601 BEFORE(buf,0x1000,0)
+[065] idx=65 sc=601 BEFORE(-1,0,0)
+[066] idx=66 sc=602 nargs=3 BEFORE(0,0,0)
+[066] *** sc=602(0) = SUCCESS ret=0 ***
+[066] idx=66 sc=602 BEFORE(buf,0x1000,0)
+[066] *** sc=602(buf) = SUCCESS ret=0 ***
+[066] idx=66 sc=602 BEFORE(-1,0,0)
+[067] idx=67 sc=603 nargs=2 BEFORE(0,0,0)
+[067] sc=603(0) ret=9 errno=22
+[067] idx=67 sc=603 BEFORE(buf,0x1000,0)
+[067] idx=67 sc=603 BEFORE(-1,0,0)
+[068] idx=68 sc=604 nargs=5 BEFORE(0,0,0)
+[068] sc=604(0) ret=1 errno=22
+[068] idx=68 sc=604 BEFORE(buf,0x1000,0)
+[068] idx=68 sc=604 BEFORE(-1,0,0)
+[069] idx=69 sc=605 nargs=1 BEFORE(0,0,0)
+[069] sc=605(0) ret=22 errno=22
+[069] idx=69 sc=605 BEFORE(buf,0x1000,0)
+[069] idx=69 sc=605 BEFORE(-1,0,0)
+[070] idx=70 sc=606 nargs=0 BEFORE(0,0,0)
+[070] *** sc=606(0) = SUCCESS ret=0 ***
+[070] idx=70 sc=606 BEFORE(buf,0x1000,0)
+[070] *** sc=606(buf) = SUCCESS ret=0 ***
+[070] idx=70 sc=606 BEFORE(-1,0,0)
+[070] *** sc=606(-1) = SUCCESS ret=0 ***
+[071] idx=71 sc=607 nargs=2 BEFORE(0,0,0)
+[071] sc=607(0) ret=14 errno=22
+[071] idx=71 sc=607 BEFORE(buf,0x1000,0)
+[071] idx=71 sc=607 BEFORE(-1,0,0)
+[072] idx=72 sc=608 nargs=3 BEFORE(0,0,0)
+[072] sc=608(0) ret=14 errno=22
+[072] idx=72 sc=608 BEFORE(buf,0x1000,0)
+[072] idx=72 sc=608 BEFORE(-1,0,0)
+[073] idx=73 sc=610 nargs=1 BEFORE(0,0,0)
+[073] sc=610(0) ret=2 errno=22
+[073] idx=73 sc=610 BEFORE(buf,0x1000,0)
+[073] idx=73 sc=610 BEFORE(-1,0,0)
+[074] idx=74 sc=611 nargs=3 BEFORE(0,0,0)
+[074] sc=611(0) ret=14 errno=22
+[074] idx=74 sc=611 BEFORE(buf,0x1000,0)
+[074] idx=74 sc=611 BEFORE(-1,0,0)
+[075] idx=75 sc=612 nargs=1 BEFORE(0,0,0)
+[075] sc=612(0) ret=14 errno=22
+[075] idx=75 sc=612 BEFORE(buf,0x1000,0)
+[075] idx=75 sc=612 BEFORE(-1,0,0)
+[076] idx=76 sc=613 nargs=3 BEFORE(0,0,0)
+[076] sc=613(0) ret=14 errno=22
+[076] idx=76 sc=613 BEFORE(buf,0x1000,0)
+[076] idx=76 sc=613 BEFORE(-1,0,0)
+[077] idx=77 sc=615 nargs=3 BEFORE(0,0,0)
+[077] sc=615(0) ret=14 errno=22
+[077] idx=77 sc=615 BEFORE(buf,0x1000,0)
+[077] idx=77 sc=615 BEFORE(-1,0,0)
+[078] idx=78 sc=616 nargs=2 BEFORE(0,0,0)
+[078] sc=616(0) ret=14 errno=22
+[078] idx=78 sc=616 BEFORE(buf,0x1000,0)
+[078] idx=78 sc=616 BEFORE(-1,0,0)
+[079] idx=79 sc=617 nargs=1 BEFORE(0,0,0)
+[079] *** sc=617(0) = SUCCESS ret=0 ***
+[079] idx=79 sc=617 BEFORE(buf,0x1000,0)
+[079] *** sc=617(buf) = SUCCESS ret=0 ***
+[079] idx=79 sc=617 BEFORE(-1,0,0)
+[079] *** sc=617(-1) = SUCCESS ret=0 ***
+[080] idx=80 sc=618 nargs=3 BEFORE(0,0,0)
+[080] *** sc=618(0) = SUCCESS ret=0 ***
+[080] idx=80 sc=618 BEFORE(buf,0x1000,0)
+[080] *** sc=618(buf) = SUCCESS ret=0 ***
+[080] *** INFO LEAK? 56 non-zero bytes ***
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    01 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 
+    18 00 00 00 00 02 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[080] idx=80 sc=618 BEFORE(-1,0,0)
+[080] *** sc=618(-1) = SUCCESS ret=0 ***
+[081] idx=81 sc=619 nargs=5 BEFORE(0,0,0)
+[081] sc=619(0) ret=78 errno=22
+[081] idx=81 sc=619 BEFORE(buf,0x1000,0)
+[081] idx=81 sc=619 BEFORE(-1,0,0)
+[082] idx=82 sc=620 nargs=0 BEFORE(0,0,0)
+[082] *** sc=620(0) = SUCCESS ret=0 ***
+[082] idx=82 sc=620 BEFORE(buf,0x1000,0)
+[082] *** sc=620(buf) = SUCCESS ret=0 ***
+[082] idx=82 sc=620 BEFORE(-1,0,0)
+[082] *** sc=620(-1) = SUCCESS ret=0 ***
+[083] idx=83 sc=622 nargs=6 BEFORE(0,0,0)

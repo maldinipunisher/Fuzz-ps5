@@ -1,0 +1,10 @@
+# PS5 Fuzzer Log — 20261013_203334
+# Source: 192.168.100.254
+
+=== PS5 Syscall 55 v4: Raw Integer Test ===
+KNOWN: 0, buf_zeros, buf_ptrs ALL crash
+NEW: testing raw non-zero integers first
+
+--- Phase 1: Raw integers 1-10 ---
+
+[1.01] BEFORE syscall(55, 1)

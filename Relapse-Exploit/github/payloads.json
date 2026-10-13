@@ -1,0 +1,14 @@
+{
+  "mandatory": [
+    "kstuffw.elf",
+    "etaHenw.elf",
+    "shadowmountplus.elf"
+  ],
+  "optional": [
+    "ProsperoMgr.elf",
+    "game-compressor.elf",
+    "ps5upload-5.40.0.elf",
+    "webkit-autoloader-installer_v0.5.2.elf",
+    "websrv-ps5.elf"
+  ]
+}

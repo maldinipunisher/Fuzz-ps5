@@ -1,0 +1,684 @@
+# PS5 FW 13.60 Syscall Table
+# Location: data+0x01ae5c0 (0xffffffffc626e5c0)
+# Stride: 48 bytes, handler at offset 8
+# num nargs handler text_offset name
+
+   0  0 0xffffffffc5665760 text+0x265760 nosys
+   1  1 0xffffffffc56657f0 text+0x2657f0 sys_exit
+   2  0 0xffffffffc56657f8 text+0x2657f8 fork
+   3  3 0xffffffffc5665800 text+0x265800 read
+   4  3 0xffffffffc5665808 text+0x265808 write
+   5  3 0xffffffffc5665810 text+0x265810 open
+   6  1 0xffffffffc5665818 text+0x265818 close
+   7  4 0xffffffffc5665820 text+0x265820 wait4
+   8  0 0xffffffffc5665760 text+0x265760 
+   9  0 0xffffffffc5665760 text+0x265760 link
+  10  1 0xffffffffc5665828 text+0x265828 unlink
+  11  0 0xffffffffc5665760 text+0x265760 
+  12  1 0xffffffffc5665830 text+0x265830 chdir
+  13  0 0xffffffffc5665760 text+0x265760 
+  14  0 0xffffffffc5665760 text+0x265760 mknod
+  15  2 0xffffffffc5665838 text+0x265838 chmod
+  16  0 0xffffffffc5665760 text+0x265760 chown
+  17  0 0xffffffffc5665760 text+0x265760 obreak
+  18  0 0xffffffffc5665760 text+0x265760 
+  19  0 0xffffffffc5665760 text+0x265760 
+  20  0 0xffffffffc5665308 text+0x265308 getpid
+  21  0 0xffffffffc5665760 text+0x265760 mount
+  22  0 0xffffffffc5665760 text+0x265760 unmount
+  23  1 0xffffffffc5665368 text+0x265368 setuid
+  24  0 0xffffffffc5665330 text+0x265330 getuid
+  25  0 0xffffffffc5665338 text+0x265338 geteuid
+  26  0 0xffffffffc5665760 text+0x265760 ptrace
+  27  3 0xffffffffc5665840 text+0x265840 recvmsg
+  28  3 0xffffffffc5665848 text+0x265848 sendmsg
+  29  6 0xffffffffc5665850 text+0x265850 recvfrom
+  30  3 0xffffffffc5665858 text+0x265858 accept
+  31  3 0xffffffffc5665860 text+0x265860 getpeername
+  32  3 0xffffffffc5665868 text+0x265868 getsockname
+  33  2 0xffffffffc5665870 text+0x265870 access
+  34  2 0xffffffffc5665878 text+0x265878 chflags
+  35  2 0xffffffffc5665880 text+0x265880 fchflags
+  36  0 0xffffffffc5665888 text+0x265888 sync
+  37  2 0xffffffffc5665890 text+0x265890 kill
+  38  0 0xffffffffc5665760 text+0x265760 
+  39  0 0xffffffffc5665310 text+0x265310 getppid
+  40  0 0xffffffffc5665760 text+0x265760 
+  41  1 0xffffffffc5665898 text+0x265898 dup
+  42  0 0xffffffffc56658a0 text+0x2658a0 pipe
+  43  0 0xffffffffc5665348 text+0x265348 getegid
+  44  4 0xffffffffc56658a8 text+0x2658a8 profil
+  45  0 0xffffffffc5665760 text+0x265760 
+  46  0 0xffffffffc5665760 text+0x265760 sigaction
+  47  0 0xffffffffc5665340 text+0x265340 getgid
+  48  0 0xffffffffc5665760 text+0x265760 
+  49  2 0xffffffffc56653d0 text+0x2653d0 getlogin
+  50  1 0xffffffffc56653d8 text+0x2653d8 setlogin
+  51  0 0xffffffffc5665760 text+0x265760 acct
+  52  0 0xffffffffc5665760 text+0x265760 
+  53  2 0xffffffffc56658b0 text+0x2658b0 sigaltstack
+  54  3 0xffffffffc56658b8 text+0x2658b8 ioctl
+  55  1 0xffffffffc56658c0 text+0x2658c0 
+  56  1 0xffffffffc56658c8 text+0x2658c8 revoke
+  57  0 0xffffffffc5665760 text+0x265760 symlink
+  58  0 0xffffffffc5665760 text+0x265760 readlink
+  59  3 0xffffffffc56658d0 text+0x2658d0 execve
+  60  0 0xffffffffc5665760 text+0x265760 umask
+  61  0 0xffffffffc5665760 text+0x265760 chroot
+  62  0 0xffffffffc5665760 text+0x265760 fstat
+  63  0 0xffffffffc5665760 text+0x265760 
+  64  0 0xffffffffc5665760 text+0x265760 
+  65  3 0xffffffffc56658d8 text+0x2658d8 
+  66  0 0xffffffffc5665760 text+0x265760 vfork
+  67  0 0xffffffffc5665760 text+0x265760 
+  68  0 0xffffffffc5665760 text+0x265760 
+  69  0 0xffffffffc5665760 text+0x265760 sbrk
+  70  0 0xffffffffc5665760 text+0x265760 
+  71  0 0xffffffffc5665760 text+0x265760 
+  72  0 0xffffffffc5665760 text+0x265760 
+  73  2 0xffffffffc56658e0 text+0x2658e0 munmap
+  74  3 0xffffffffc56658e8 text+0x2658e8 mprotect
+  75  3 0xffffffffc56658f0 text+0x2658f0 madvise
+  76  0 0xffffffffc5665760 text+0x265760 
+  77  0 0xffffffffc5665760 text+0x265760 
+  78  3 0xffffffffc56658f8 text+0x2658f8 mincore
+  79  2 0xffffffffc5665350 text+0x265350 getgroups
+  80  2 0xffffffffc5665388 text+0x265388 setgroups
+  81  0 0xffffffffc5665760 text+0x265760 getpgrp
+  82  0 0xffffffffc5665760 text+0x265760 setpgid
+  83  3 0xffffffffc5665900 text+0x265900 setitimer
+  84  0 0xffffffffc5665760 text+0x265760 
+  85  0 0xffffffffc5665760 text+0x265760 swapon
+  86  2 0xffffffffc5665908 text+0x265908 getitimer
+  87  0 0xffffffffc5665760 text+0x265760 
+  88  0 0xffffffffc5665760 text+0x265760 
+  89  0 0xffffffffc5665910 text+0x265910 getdtablesize
+  90  2 0xffffffffc5665918 text+0x265918 dup2
+  91  0 0xffffffffc5665760 text+0x265760 
+  92  3 0xffffffffc5665920 text+0x265920 fcntl
+  93  5 0xffffffffc5665928 text+0x265928 select
+  94  0 0xffffffffc5665760 text+0x265760 
+  95  1 0xffffffffc5665930 text+0x265930 fsync
+  96  3 0xffffffffc5665938 text+0x265938 setpriority
+  97  3 0xffffffffc5665940 text+0x265940 socket
+  98  3 0xffffffffc5665948 text+0x265948 connect
+  99  4 0xffffffffc5665950 text+0x265950 
+ 100  2 0xffffffffc5665958 text+0x265958 getpriority
+ 101  2 0xffffffffc5665960 text+0x265960 
+ 102  4 0xffffffffc5665968 text+0x265968 
+ 103  0 0xffffffffc5665760 text+0x265760 
+ 104  3 0xffffffffc5665970 text+0x265970 bind
+ 105  5 0xffffffffc5665978 text+0x265978 setsockopt
+ 106  2 0xffffffffc5665980 text+0x265980 listen
+ 107  0 0xffffffffc5665760 text+0x265760 
+ 108  0 0xffffffffc5665760 text+0x265760 
+ 109  0 0xffffffffc5665760 text+0x265760 
+ 110  0 0xffffffffc5665760 text+0x265760 
+ 111  0 0xffffffffc5665760 text+0x265760 
+ 112  0 0xffffffffc5665760 text+0x265760 
+ 113  4 0xffffffffc5665988 text+0x265988 
+ 114  1 0xffffffffc5665990 text+0x265990 
+ 115  0 0xffffffffc5665760 text+0x265760 
+ 116  2 0xffffffffc5665998 text+0x265998 gettimeofday
+ 117  2 0xffffffffc56659a0 text+0x2659a0 getrusage
+ 118  5 0xffffffffc56659a8 text+0x2659a8 getsockopt
+ 119  0 0xffffffffc5665760 text+0x265760 
+ 120  3 0xffffffffc56659b0 text+0x2659b0 readv
+ 121  3 0xffffffffc56659b8 text+0x2659b8 writev
+ 122  2 0xffffffffc56659c0 text+0x2659c0 settimeofday
+ 123  0 0xffffffffc5665760 text+0x265760 fchown
+ 124  2 0xffffffffc56659c8 text+0x2659c8 fchmod
+ 125  3 0xffffffffc56659d0 text+0x2659d0 
+ 126  2 0xffffffffc5665390 text+0x265390 
+ 127  2 0xffffffffc5665398 text+0x265398 
+ 128  2 0xffffffffc56659d8 text+0x2659d8 
+ 129  0 0xffffffffc5665760 text+0x265760 
+ 130  0 0xffffffffc5665760 text+0x265760 
+ 131  2 0xffffffffc56659e0 text+0x2659e0 flock
+ 132  0 0xffffffffc5665760 text+0x265760 mkfifo
+ 133  6 0xffffffffc56659e8 text+0x2659e8 sendto
+ 134  2 0xffffffffc56659f0 text+0x2659f0 shutdown
+ 135  4 0xffffffffc56659f8 text+0x2659f8 socketpair
+ 136  2 0xffffffffc5665a00 text+0x265a00 mkdir
+ 137  1 0xffffffffc5665a08 text+0x265a08 rmdir
+ 138  2 0xffffffffc5665a10 text+0x265a10 utimes
+ 139  0 0xffffffffc5665760 text+0x265760 
+ 140  2 0xffffffffc5665538 text+0x265538 adjtime
+ 141  1 0xffffffffc56654f0 text+0x2654f0 getpeername
+ 142  0 0xffffffffc5665760 text+0x265760 
+ 143  0 0xffffffffc5665760 text+0x265760 
+ 144  0 0xffffffffc5665760 text+0x265760 
+ 145  0 0xffffffffc5665760 text+0x265760 
+ 146  0 0xffffffffc5665760 text+0x265760 
+ 147  0 0xffffffffc5665358 text+0x265358 setsid
+ 148  0 0xffffffffc5665760 text+0x265760 quotactl
+ 149  0 0xffffffffc5665760 text+0x265760 
+ 150  0 0xffffffffc5665760 text+0x265760 
+ 151  0 0xffffffffc5665760 text+0x265760 
+ 152  0 0xffffffffc5665760 text+0x265760 
+ 153  0 0xffffffffc5665760 text+0x265760 
+ 154  0 0xffffffffc5665760 text+0x265760 
+ 155  0 0xffffffffc5665760 text+0x265760 nfssvc
+ 156  0 0xffffffffc5665760 text+0x265760 
+ 157  0 0xffffffffc5665760 text+0x265760 statfs
+ 158  0 0xffffffffc5665760 text+0x265760 fstatfs
+ 159  0 0xffffffffc5665760 text+0x265760 
+ 160  0 0xffffffffc5665760 text+0x265760 lgetfh
+ 161  0 0xffffffffc5665760 text+0x265760 getfh
+ 162  0 0xffffffffc5665760 text+0x265760 
+ 163  0 0xffffffffc5665760 text+0x265760 
+ 164  0 0xffffffffc5665760 text+0x265760 
+ 165  2 0xffffffffc5665a18 text+0x265a18 sysarch
+ 166  0 0xffffffffc5665760 text+0x265760 
+ 167  0 0xffffffffc5665760 text+0x265760 
+ 168  0 0xffffffffc5665760 text+0x265760 
+ 169  0 0xffffffffc5665760 text+0x265760 
+ 170  0 0xffffffffc5665760 text+0x265760 
+ 171  0 0xffffffffc5665760 text+0x265760 
+ 172  0 0xffffffffc5665760 text+0x265760 
+ 173  0 0xffffffffc5665760 text+0x265760 
+ 174  0 0xffffffffc5665760 text+0x265760 
+ 175  0 0xffffffffc5665760 text+0x265760 
+ 176  0 0xffffffffc5665760 text+0x265760 
+ 177  0 0xffffffffc5665760 text+0x265760 
+ 178  0 0xffffffffc5665760 text+0x265760 
+ 179  0 0xffffffffc5665760 text+0x265760 
+ 180  0 0xffffffffc5665760 text+0x265760 
+ 181  0 0xffffffffc5665760 text+0x265760 setgid
+ 182  1 0xffffffffc5665380 text+0x265380 setegid
+ 183  1 0xffffffffc5665370 text+0x265370 seteuid
+ 184  0 0xffffffffc5665760 text+0x265760 
+ 185  0 0xffffffffc5665760 text+0x265760 
+ 186  0 0xffffffffc5665760 text+0x265760 
+ 187  0 0xffffffffc5665760 text+0x265760 
+ 188  2 0xffffffffc5665a20 text+0x265a20 stat
+ 189  2 0xffffffffc5665a28 text+0x265a28 fstat
+ 190  2 0xffffffffc5665a30 text+0x265a30 lstat
+ 191  2 0xffffffffc5665a38 text+0x265a38 pathconf
+ 192  2 0xffffffffc5665a40 text+0x265a40 fpathconf
+ 193  0 0xffffffffc5665760 text+0x265760 
+ 194  2 0xffffffffc5665a48 text+0x265a48 getrlimit
+ 195  2 0xffffffffc5665a50 text+0x265a50 setrlimit
+ 196  4 0xffffffffc5665a58 text+0x265a58 
+ 197  0 0xffffffffc5665760 text+0x265760 mmap
+ 198  0 0xffffffffc5665760 text+0x265760 __syscall
+ 199  0 0xffffffffc5665760 text+0x265760 lseek
+ 200  0 0xffffffffc5665760 text+0x265760 truncate
+ 201  0 0xffffffffc5665760 text+0x265760 ftruncate
+ 202  6 0xffffffffc5665a60 text+0x265a60 sysctl
+ 203  2 0xffffffffc5665a68 text+0x265a68 mlock
+ 204  2 0xffffffffc5665a70 text+0x265a70 munlock
+ 205  0 0xffffffffc5665760 text+0x265760 undelete
+ 206  2 0xffffffffc5665a78 text+0x265a78 futimes
+ 207  0 0xffffffffc5665760 text+0x265760 getpgid
+ 208  0 0xffffffffc5665760 text+0x265760 
+ 209  3 0xffffffffc5665a80 text+0x265a80 
+ 210  1 0xffffffffc5665a88 text+0x265a88 
+ 211  1 0xffffffffc5665a88 text+0x265a88 
+ 212  1 0xffffffffc5665a88 text+0x265a88 
+ 213  1 0xffffffffc5665a88 text+0x265a88 
+ 214  1 0xffffffffc5665a88 text+0x265a88 
+ 215  1 0xffffffffc5665a88 text+0x265a88 
+ 216  1 0xffffffffc5665a88 text+0x265a88 open
+ 217  1 0xffffffffc5665a88 text+0x265a88 readv
+ 218  1 0xffffffffc5665a88 text+0x265a88 writev
+ 219  1 0xffffffffc5665a88 text+0x265a88 
+ 220  0 0xffffffffc5665a90 text+0x265a90 semget
+ 221  0 0xffffffffc5665760 text+0x265760 
+ 222  0 0xffffffffc5665760 text+0x265760 semop
+ 223  0 0xffffffffc5665760 text+0x265760 
+ 224  0 0xffffffffc5665a90 text+0x265a90 msgget
+ 225  0 0xffffffffc5665760 text+0x265760 msgsnd
+ 226  0 0xffffffffc5665760 text+0x265760 msgrcv
+ 227  0 0xffffffffc5665760 text+0x265760 
+ 228  0 0xffffffffc5665760 text+0x265760 shmat
+ 229  0 0xffffffffc5665a90 text+0x265a90 shmctl
+ 230  0 0xffffffffc5665760 text+0x265760 shmdt
+ 231  0 0xffffffffc5665760 text+0x265760 shmget
+ 232  2 0xffffffffc5665a98 text+0x265a98 clock_gettime
+ 233  2 0xffffffffc5665aa0 text+0x265aa0 clock_settime
+ 234  2 0xffffffffc5665aa8 text+0x265aa8 clock_getres
+ 235  3 0xffffffffc5665ab0 text+0x265ab0 
+ 236  1 0xffffffffc5665ab8 text+0x265ab8 
+ 237  4 0xffffffffc5665ac0 text+0x265ac0 
+ 238  2 0xffffffffc5665ac8 text+0x265ac8 
+ 239  1 0xffffffffc5665ad0 text+0x265ad0 
+ 240  2 0xffffffffc5665ad8 text+0x265ad8 nanosleep
+ 241  0 0xffffffffc5665760 text+0x265760 
+ 242  0 0xffffffffc5665760 text+0x265760 
+ 243  0 0xffffffffc5665760 text+0x265760 
+ 244  0 0xffffffffc5665760 text+0x265760 
+ 245  0 0xffffffffc5665760 text+0x265760 
+ 246  0 0xffffffffc5665760 text+0x265760 
+ 247  0 0xffffffffc5665760 text+0x265760 
+ 248  0 0xffffffffc5665760 text+0x265760 
+ 249  0 0xffffffffc5665760 text+0x265760 
+ 250  0 0xffffffffc5665760 text+0x265760 minherit
+ 251  1 0xffffffffc5665ae0 text+0x265ae0 
+ 252  0 0xffffffffc5665760 text+0x265760 
+ 253  0 0xffffffffc56653c0 text+0x2653c0 issetugid
+ 254  0 0xffffffffc5665760 text+0x265760 lchown
+ 255  0 0xffffffffc5665760 text+0x265760 
+ 256  0 0xffffffffc5665760 text+0x265760 
+ 257  0 0xffffffffc5665760 text+0x265760 
+ 258  0 0xffffffffc5665760 text+0x265760 
+ 259  0 0xffffffffc5665760 text+0x265760 
+ 260  0 0xffffffffc5665760 text+0x265760 
+ 261  0 0xffffffffc5665760 text+0x265760 
+ 262  0 0xffffffffc5665760 text+0x265760 
+ 263  0 0xffffffffc5665760 text+0x265760 
+ 264  0 0xffffffffc5665760 text+0x265760 
+ 265  0 0xffffffffc5665760 text+0x265760 
+ 266  0 0xffffffffc5665760 text+0x265760 
+ 267  0 0xffffffffc5665760 text+0x265760 
+ 268  0 0xffffffffc5665760 text+0x265760 
+ 269  0 0xffffffffc5665760 text+0x265760 
+ 270  0 0xffffffffc5665760 text+0x265760 
+ 271  0 0xffffffffc5665760 text+0x265760 
+ 272  3 0xffffffffc5665ae8 text+0x265ae8 getdents
+ 273  0 0xffffffffc5665760 text+0x265760 
+ 274  0 0xffffffffc5665760 text+0x265760 
+ 275  0 0xffffffffc5665760 text+0x265760 
+ 276  0 0xffffffffc5665760 text+0x265760 lchmod
+ 277  0 0xffffffffc5665760 text+0x265760 
+ 278  0 0xffffffffc5665760 text+0x265760 lutimes
+ 279  0 0xffffffffc5665760 text+0x265760 
+ 280  0 0xffffffffc5665760 text+0x265760 
+ 281  0 0xffffffffc5665760 text+0x265760 
+ 282  0 0xffffffffc5665760 text+0x265760 
+ 283  0 0xffffffffc5665760 text+0x265760 
+ 284  0 0xffffffffc5665760 text+0x265760 
+ 285  0 0xffffffffc5665760 text+0x265760 
+ 286  0 0xffffffffc5665760 text+0x265760 
+ 287  0 0xffffffffc5665760 text+0x265760 
+ 288  0 0xffffffffc5665760 text+0x265760 
+ 289  4 0xffffffffc5665af0 text+0x265af0 preadv
+ 290  4 0xffffffffc5665af8 text+0x265af8 pwritev
+ 291  0 0xffffffffc5665760 text+0x265760 
+ 292  0 0xffffffffc5665760 text+0x265760 
+ 293  0 0xffffffffc5665760 text+0x265760 
+ 294  0 0xffffffffc5665760 text+0x265760 
+ 295  0 0xffffffffc5665760 text+0x265760 
+ 296  0 0xffffffffc5665760 text+0x265760 
+ 297  0 0xffffffffc5665760 text+0x265760 
+ 298  0 0xffffffffc5665760 text+0x265760 
+ 299  0 0xffffffffc5665760 text+0x265760 
+ 300  0 0xffffffffc5665760 text+0x265760 
+ 301  0 0xffffffffc5665760 text+0x265760 
+ 302  0 0xffffffffc5665760 text+0x265760 
+ 303  0 0xffffffffc5665760 text+0x265760 
+ 304  0 0xffffffffc5665760 text+0x265760 
+ 305  0 0xffffffffc5665760 text+0x265760 
+ 306  0 0xffffffffc5665760 text+0x265760 
+ 307  0 0xffffffffc5665760 text+0x265760 
+ 308  0 0xffffffffc5665760 text+0x265760 
+ 309  0 0xffffffffc5665760 text+0x265760 
+ 310  1 0xffffffffc5665328 text+0x265328 
+ 311  0 0xffffffffc5665760 text+0x265760 
+ 312  0 0xffffffffc5665760 text+0x265760 
+ 313  0 0xffffffffc5665760 text+0x265760 
+ 314  0 0xffffffffc5665760 text+0x265760 
+ 315  3 0xffffffffc5665b00 text+0x265b00 
+ 316  0 0xffffffffc5665760 text+0x265760 kevent
+ 317  0 0xffffffffc5665760 text+0x265760 
+ 318  0 0xffffffffc5665760 text+0x265760 
+ 319  0 0xffffffffc5665760 text+0x265760 
+ 320  0 0xffffffffc5665760 text+0x265760 
+ 321  0 0xffffffffc5665760 text+0x265760 yield
+ 322  0 0xffffffffc5665760 text+0x265760 
+ 323  0 0xffffffffc5665760 text+0x265760 
+ 324  1 0xffffffffc5665b08 text+0x265b08 mlockall
+ 325  0 0xffffffffc5665b10 text+0x265b10 munlockall
+ 326  0 0xffffffffc5665760 text+0x265760 
+ 327  2 0xffffffffc5665b18 text+0x265b18 
+ 328  2 0xffffffffc5665b20 text+0x265b20 
+ 329  3 0xffffffffc5665b28 text+0x265b28 
+ 330  1 0xffffffffc5665b30 text+0x265b30 ___sigwait
+ 331  0 0xffffffffc5665b38 text+0x265b38 thr_create
+ 332  1 0xffffffffc5665b40 text+0x265b40 thr_exit
+ 333  1 0xffffffffc5665b48 text+0x265b48 
+ 334  2 0xffffffffc5665b50 text+0x265b50 thr_self
+ 335  0 0xffffffffc5665760 text+0x265760 thr_kill
+ 336  0 0xffffffffc5665760 text+0x265760 
+ 337  0 0xffffffffc5665760 text+0x265760 
+ 338  0 0xffffffffc5665760 text+0x265760 jail
+ 339  0 0xffffffffc5665760 text+0x265760 nnpfs_syscall
+ 340  3 0xffffffffc5665b58 text+0x265b58 sigprocmask
+ 341  1 0xffffffffc5665b60 text+0x265b60 sigsuspend
+ 342  0 0xffffffffc5665760 text+0x265760 
+ 343  1 0xffffffffc5665b68 text+0x265b68 
+ 344  0 0xffffffffc5665760 text+0x265760 
+ 345  3 0xffffffffc5665b70 text+0x265b70 _umtx_op
+ 346  2 0xffffffffc5665b78 text+0x265b78 
+ 347  0 0xffffffffc5665760 text+0x265760 
+ 348  0 0xffffffffc5665760 text+0x265760 
+ 349  0 0xffffffffc5665760 text+0x265760 sched_yield
+ 350  0 0xffffffffc5665760 text+0x265760 
+ 351  0 0xffffffffc5665760 text+0x265760 
+ 352  0 0xffffffffc5665760 text+0x265760 sigtimedwait
+ 353  0 0xffffffffc5665760 text+0x265760 sigwaitinfo
+ 354  0 0xffffffffc5665760 text+0x265760 
+ 355  0 0xffffffffc5665760 text+0x265760 
+ 356  0 0xffffffffc5665760 text+0x265760 
+ 357  0 0xffffffffc5665760 text+0x265760 
+ 358  0 0xffffffffc5665760 text+0x265760 
+ 359  0 0xffffffffc5665760 text+0x265760 
+ 360  0 0xffffffffc5665760 text+0x265760 
+ 361  0 0xffffffffc5665760 text+0x265760 
+ 362  0 0xffffffffc56654e8 text+0x2654e8 
+ 363  6 0xffffffffc56654f8 text+0x2654f8 pread
+ 364  0 0xffffffffc5665760 text+0x265760 pwrite
+ 365  0 0xffffffffc5665760 text+0x265760 mmap
+ 366  0 0xffffffffc5665760 text+0x265760 
+ 367  0 0xffffffffc5665760 text+0x265760 
+ 368  0 0xffffffffc5665760 text+0x265760 
+ 369  0 0xffffffffc5665760 text+0x265760 
+ 370  0 0xffffffffc5665760 text+0x265760 
+ 371  0 0xffffffffc5665760 text+0x265760 extattr_set_fd
+ 372  0 0xffffffffc5665760 text+0x265760 extattr_get_fd
+ 373  0 0xffffffffc5665760 text+0x265760 
+ 374  0 0xffffffffc5665760 text+0x265760 
+ 375  0 0xffffffffc5665760 text+0x265760 
+ 376  0 0xffffffffc5665760 text+0x265760 
+ 377  0 0xffffffffc5665760 text+0x265760 getresuid
+ 378  0 0xffffffffc5665760 text+0x265760 getresgid
+ 379  4 0xffffffffc5665b80 text+0x265b80 
+ 380  0 0xffffffffc5665760 text+0x265760 
+ 381  0 0xffffffffc5665760 text+0x265760 
+ 382  0 0xffffffffc5665760 text+0x265760 
+ 383  0 0xffffffffc5665760 text+0x265760 
+ 384  0 0xffffffffc5665760 text+0x265760 
+ 385  0 0xffffffffc5665760 text+0x265760 
+ 386  0 0xffffffffc5665760 text+0x265760 
+ 387  0 0xffffffffc5665760 text+0x265760 
+ 388  0 0xffffffffc5665760 text+0x265760 
+ 389  0 0xffffffffc5665760 text+0x265760 
+ 390  0 0xffffffffc5665760 text+0x265760 
+ 391  0 0xffffffffc5665760 text+0x265760 
+ 392  2 0xffffffffc56657e8 text+0x2657e8 kqueue
+ 393  7 0xffffffffc5665b88 text+0x265b88 kevent
+ 394  0 0xffffffffc5665760 text+0x265760 sctp_peeloff
+ 395  0 0xffffffffc5665760 text+0x265760 
+ 396  0 0xffffffffc5665760 text+0x265760 jail_attach
+ 397  2 0xffffffffc5665b90 text+0x265b90 extattr_list_fd
+ 398  0 0xffffffffc5665760 text+0x265760 extattr_list_file
+ 399  0 0xffffffffc5665760 text+0x265760 
+ 400  1 0xffffffffc5665b98 text+0x265b98 
+ 401  1 0xffffffffc5665ba0 text+0x265ba0 
+ 402  1 0xffffffffc5665ba8 text+0x265ba8 
+ 403  1 0xffffffffc5665bb0 text+0x265bb0 
+ 404  2 0xffffffffc5665bb8 text+0x265bb8 
+ 405  5 0xffffffffc5665bc0 text+0x265bc0 
+ 406  1 0xffffffffc5665bc8 text+0x265bc8 
+ 407  2 0xffffffffc5665bd0 text+0x265bd0 
+ 408  1 0xffffffffc5665bd8 text+0x265bd8 
+ 409  0 0xffffffffc5665760 text+0x265760 
+ 410  0 0xffffffffc5665760 text+0x265760 
+ 411  0 0xffffffffc5665760 text+0x265760 
+ 412  0 0xffffffffc5665760 text+0x265760 
+ 413  0 0xffffffffc5665760 text+0x265760 
+ 414  0 0xffffffffc5665760 text+0x265760 
+ 415  0 0xffffffffc5665760 text+0x265760 
+ 416  3 0xffffffffc5665be0 text+0x265be0 sigaction
+ 417  1 0xffffffffc5665be8 text+0x265be8 sigreturn
+ 418  0 0xffffffffc5665760 text+0x265760 
+ 419  0 0xffffffffc5665760 text+0x265760 
+ 420  0 0xffffffffc5665760 text+0x265760 
+ 421  1 0xffffffffc5665bf0 text+0x265bf0 
+ 422  1 0xffffffffc5665bf8 text+0x265bf8 
+ 423  2 0xffffffffc5665c00 text+0x265c00 
+ 424  0 0xffffffffc5665760 text+0x265760 
+ 425  0 0xffffffffc5665760 text+0x265760 
+ 426  0 0xffffffffc5665760 text+0x265760 
+ 427  0 0xffffffffc5665760 text+0x265760 
+ 428  0 0xffffffffc5665760 text+0x265760 
+ 429  2 0xffffffffc5665c08 text+0x265c08 
+ 430  3 0xffffffffc5665c10 text+0x265c10 
+ 431  1 0xffffffffc5665c18 text+0x265c18 
+ 432  1 0xffffffffc5665c20 text+0x265c20 thr_kill2
+ 433  2 0xffffffffc5665c28 text+0x265c28 shm_open
+ 434  0 0xffffffffc5665760 text+0x265760 shm_unlink
+ 435  0 0xffffffffc5665760 text+0x265760 
+ 436  0 0xffffffffc5665760 text+0x265760 
+ 437  0 0xffffffffc5665760 text+0x265760 
+ 438  0 0xffffffffc5665760 text+0x265760 
+ 439  0 0xffffffffc5665760 text+0x265760 
+ 440  0 0xffffffffc5665760 text+0x265760 
+ 441  2 0xffffffffc5665c30 text+0x265c30 cap_getmode
+ 442  1 0xffffffffc5665c38 text+0x265c38 pdfork
+ 443  1 0xffffffffc5665c40 text+0x265c40 pdkill
+ 444  2 0xffffffffc5665c48 text+0x265c48 pdgetpid
+ 445  0 0xffffffffc5665760 text+0x265760 
+ 446  0 0xffffffffc5665760 text+0x265760 
+ 447  0 0xffffffffc5665760 text+0x265760 pselect
+ 448  0 0xffffffffc5665760 text+0x265760 getloginclass
+ 449  0 0xffffffffc5665760 text+0x265760 setloginclass
+ 450  0 0xffffffffc5665760 text+0x265760 
+ 451  0 0xffffffffc5665760 text+0x265760 
+ 452  0 0xffffffffc5665760 text+0x265760 
+ 453  0 0xffffffffc5665760 text+0x265760 fstatat
+ 454  6 0xffffffffc5665600 text+0x265600 fhstat
+ 455  2 0xffffffffc5665c50 text+0x265c50 getdirentries
+ 456  3 0xffffffffc5665c58 text+0x265c58 statfs
+ 457  0 0xffffffffc5665760 text+0x265760 fstatfs
+ 458  0 0xffffffffc5665760 text+0x265760 getfsstat
+ 459  0 0xffffffffc5665760 text+0x265760 fhstatfs
+ 460  0 0xffffffffc5665760 text+0x265760 
+ 461  0 0xffffffffc5665760 text+0x265760 mknodat
+ 462  0 0xffffffffc5665760 text+0x265760 openat
+ 463  0 0xffffffffc5665760 text+0x265760 readlinkat
+ 464  2 0xffffffffc5665c60 text+0x265c60 renameat
+ 465  0 0xffffffffc5665760 text+0x265760 symlinkat
+ 466  3 0xffffffffc5665c68 text+0x265c68 unlinkat
+ 467  0 0xffffffffc5665760 text+0x265760 
+ 468  0 0xffffffffc5665760 text+0x265760 
+ 469  0 0xffffffffc5665760 text+0x265760 
+ 470  0 0xffffffffc5665760 text+0x265760 
+ 471  0 0xffffffffc5665760 text+0x265760 accept4
+ 472  0 0xffffffffc5665760 text+0x265760 pipe2
+ 473  0 0xffffffffc5665760 text+0x265760 
+ 474  0 0xffffffffc5665760 text+0x265760 aio_mlock
+ 475  4 0xffffffffc5665c70 text+0x265c70 procctl
+ 476  4 0xffffffffc5665c78 text+0x265c78 
+ 477  6 0xffffffffc5665c80 text+0x265c80 ppoll
+ 478  3 0xffffffffc5665c88 text+0x265c88 futimens
+ 479  2 0xffffffffc5665c90 text+0x265c90 utimensat
+ 480  2 0xffffffffc5665c98 text+0x265c98 
+ 481  3 0xffffffffc5665ca0 text+0x265ca0 fdatasync
+ 482  3 0xffffffffc5665ca8 text+0x265ca8 fstat
+ 483  1 0xffffffffc5665cb0 text+0x265cb0 fstatat
+ 484  0 0xffffffffc5665760 text+0x265760 fhstat
+ 485  0 0xffffffffc5665760 text+0x265760 getdirentries
+ 486  4 0xffffffffc5665cb8 text+0x265cb8 statfs
+ 487  5 0xffffffffc5665cc0 text+0x265cc0 fstatfs
+ 488  5 0xffffffffc5665cc8 text+0x265cc8 getfsstat
+ 489  0 0xffffffffc5665760 text+0x265760 fhstatfs
+ 490  0 0xffffffffc5665760 text+0x265760 mknodat
+ 491  0 0xffffffffc5665760 text+0x265760 openat
+ 492  0 0xffffffffc5665760 text+0x265760 
+ 493  0 0xffffffffc5665760 text+0x265760 
+ 494  0 0xffffffffc5665760 text+0x265760 
+ 495  0 0xffffffffc5665760 text+0x265760 
+ 496  0 0xffffffffc5665760 text+0x265760 
+ 497  0 0xffffffffc5665760 text+0x265760 
+ 498  0 0xffffffffc5665760 text+0x265760 
+ 499  4 0xffffffffc5665cd0 text+0x265cd0 
+ 500  0 0xffffffffc5665760 text+0x265760 
+ 501  0 0xffffffffc5665760 text+0x265760 
+ 502  0 0xffffffffc5665760 text+0x265760 
+ 503  0 0xffffffffc5665760 text+0x265760 
+ 504  0 0xffffffffc5665760 text+0x265760 
+ 505  0 0xffffffffc5665760 text+0x265760 
+ 506  0 0xffffffffc5665760 text+0x265760 
+ 507  0 0xffffffffc5665760 text+0x265760 
+ 508  0 0xffffffffc5665760 text+0x265760 
+ 509  0 0xffffffffc5665760 text+0x265760 
+ 510  0 0xffffffffc5665760 text+0x265760 
+ 511  0 0xffffffffc5665760 text+0x265760 
+ 512  0 0xffffffffc5665760 text+0x265760 
+ 513  0 0xffffffffc5665760 text+0x265760 
+ 514  0 0xffffffffc5665760 text+0x265760 
+ 515  3 0xffffffffc5665cd8 text+0x265cd8 
+ 516  0 0xffffffffc5665760 text+0x265760 
+ 517  0 0xffffffffc5665760 text+0x265760 
+ 518  0 0xffffffffc5665760 text+0x265760 
+ 519  0 0xffffffffc5665760 text+0x265760 
+ 520  0 0xffffffffc5665760 text+0x265760 
+ 521  0 0xffffffffc5665760 text+0x265760 
+ 522  6 0xffffffffc5665ce0 text+0x265ce0 
+ 523  0 0xffffffffc5665760 text+0x265760 
+ 524  0 0xffffffffc5665760 text+0x265760 
+ 525  0 0xffffffffc5665760 text+0x265760 
+ 526  0 0xffffffffc5665760 text+0x265760 
+ 527  0 0xffffffffc5665760 text+0x265760 
+ 528  0 0xffffffffc5665760 text+0x265760 
+ 529  0 0xffffffffc5665760 text+0x265760 
+ 530  0 0xffffffffc5665760 text+0x265760 
+ 531  0 0xffffffffc5665760 text+0x265760 
+ 532  5 0xffffffffc5665ce8 text+0x265ce8 shm_open2
+ 533  3 0xffffffffc5665cf0 text+0x265cf0 shm_rename
+ 534  2 0xffffffffc5665cf8 text+0x265cf8 
+ 535  4 0xffffffffc5665d00 text+0x265d00 
+ 536  3 0xffffffffc5665d08 text+0x265d08 
+ 537  0 0xffffffffc5665760 text+0x265760 
+ 538  3 0xffffffffc5665d10 text+0x265d10 
+ 539  1 0xffffffffc5665d18 text+0x265d18 
+ 540  1 0xffffffffc5665d20 text+0x265d20 copy_file_range
+ 541  1 0xffffffffc5665d28 text+0x265d28 
+ 542  5 0xffffffffc5665d30 text+0x265d30 
+ 543  4 0xffffffffc5665d38 text+0x265d38 
+ 544  2 0xffffffffc5665d40 text+0x265d40 
+ 545  2 0xffffffffc5665d48 text+0x265d48 close_range
+ 546  3 0xffffffffc5665d50 text+0x265d50 
+ 547  2 0xffffffffc5665d58 text+0x265d58 
+ 548  5 0xffffffffc5665d60 text+0x265d60 
+ 549  4 0xffffffffc5665d68 text+0x265d68 
+ 550  1 0xffffffffc5665d70 text+0x265d70 
+ 551  1 0xffffffffc5665d78 text+0x265d78 
+ 552  1 0xffffffffc5665d80 text+0x265d80 
+ 553  3 0xffffffffc5665d88 text+0x265d88 
+ 554  2 0xffffffffc5665d90 text+0x265d90 
+ 555  2 0xffffffffc5665d98 text+0x265d98 
+ 556  3 0xffffffffc5665da0 text+0x265da0 
+ 557  3 0xffffffffc5665da8 text+0x265da8 timerfd_create
+ 558  2 0xffffffffc5665db0 text+0x265db0 timerfd_gettime
+ 559  1 0xffffffffc5665db8 text+0x265db8 timerfd_settime
+ 560  1 0xffffffffc5665dc0 text+0x265dc0 
+ 561  0 0xffffffffc5665760 text+0x265760 
+ 562  0 0xffffffffc5665760 text+0x265760 
+ 563  1 0xffffffffc5665dc8 text+0x265dc8 
+ 564  1 0xffffffffc5665dd0 text+0x265dd0 kcmp
+ 565  3 0xffffffffc5665dd8 text+0x265dd8 
+ 566  3 0xffffffffc5665de0 text+0x265de0 
+ 567  3 0xffffffffc5665de8 text+0x265de8 
+ 568  0 0xffffffffc5665760 text+0x265760 
+ 569  0 0xffffffffc5665760 text+0x265760 
+ 570  0 0xffffffffc5665760 text+0x265760 
+ 571  0 0xffffffffc5665760 text+0x265760 
+ 572  4 0xffffffffc5665df0 text+0x265df0 
+ 573  0 0xffffffffc5665760 text+0x265760 
+ 574  0 0xffffffffc5665760 text+0x265760 
+ 575  0 0xffffffffc5665760 text+0x265760 
+ 576  0 0xffffffffc5665760 text+0x265760 
+ 577  0 0xffffffffc5665760 text+0x265760 
+ 578  0 0xffffffffc5665760 text+0x265760 
+ 579  0 0xffffffffc5665760 text+0x265760 
+ 580  0 0xffffffffc5665760 text+0x265760 
+ 581  0 0xffffffffc5665760 text+0x265760 
+ 582  0 0xffffffffc5665760 text+0x265760 
+ 583  0 0xffffffffc5665760 text+0x265760 
+ 584  0 0xffffffffc5665760 text+0x265760 
+ 585  0 0xffffffffc5665df8 text+0x265df8 
+ 586  1 0xffffffffc5665790 text+0x265790 
+ 587  2 0xffffffffc5665e00 text+0x265e00 
+ 588  3 0xffffffffc5665e08 text+0x265e08 
+ 589  0 0xffffffffc5665760 text+0x265760 
+ 590  0 0xffffffffc5665760 text+0x265760 
+ 591  3 0xffffffffc5665570 text+0x265570 
+ 592  3 0xffffffffc5665578 text+0x265578 
+ 593  2 0xffffffffc5665588 text+0x265588 
+ 594  4 0xffffffffc5665560 text+0x265560 
+ 595  3 0xffffffffc5665568 text+0x265568 
+ 596  0 0xffffffffc56655b0 text+0x2655b0 
+ 597  0 0xffffffffc5665760 text+0x265760 
+ 598  2 0xffffffffc56655d0 text+0x2655d0 
+ 599  0 0xffffffffc56655d8 text+0x2655d8 
+ 600  1 0xffffffffc5665e10 text+0x265e10 
+ 601  3 0xffffffffc5665e18 text+0x265e18 
+ 602  3 0xffffffffc5665e20 text+0x265e20 
+ 603  2 0xffffffffc5665e28 text+0x265e28 
+ 604  5 0xffffffffc5665e30 text+0x265e30 
+ 605  1 0xffffffffc5665e38 text+0x265e38 
+ 606  0 0xffffffffc5665e40 text+0x265e40 
+ 607  2 0xffffffffc5665e48 text+0x265e48 
+ 608  3 0xffffffffc5665598 text+0x265598 
+ 609  0 0xffffffffc5665760 text+0x265760 
+ 610  1 0xffffffffc5665e50 text+0x265e50 
+ 611  3 0xffffffffc5665e58 text+0x265e58 
+ 612  1 0xffffffffc56655e0 text+0x2655e0 
+ 613  3 0xffffffffc5665e60 text+0x265e60 
+ 614  0 0xffffffffc5665760 text+0x265760 
+ 615  3 0xffffffffc5665e68 text+0x265e68 
+ 616  2 0xffffffffc5665e70 text+0x265e70 
+ 617  1 0xffffffffc5665e78 text+0x265e78 
+ 618  3 0xffffffffc5665e80 text+0x265e80 
+ 619  5 0xffffffffc5665e88 text+0x265e88 
+ 620  0 0xffffffffc5665e90 text+0x265e90 
+ 621  0 0xffffffffc5665760 text+0x265760 
+ 622  6 0xffffffffc5665e98 text+0x265e98 
+ 623  1 0xffffffffc5665ea0 text+0x265ea0 
+ 624  0 0xffffffffc5665ea8 text+0x265ea8 
+ 625  4 0xffffffffc5665eb0 text+0x265eb0 
+ 626  5 0xffffffffc5665eb8 text+0x265eb8 
+ 627  2 0xffffffffc5665ec0 text+0x265ec0 
+ 628  6 0xffffffffc5665ec8 text+0x265ec8 
+ 629  4 0xffffffffc5665ed0 text+0x265ed0 
+ 630  1 0xffffffffc5665ed8 text+0x265ed8 
+ 631  0 0xffffffffc5665760 text+0x265760 
+ 632  1 0xffffffffc5665ee0 text+0x265ee0 
+ 633  1 0xffffffffc5665ee8 text+0x265ee8 
+ 634  2 0xffffffffc5665ef0 text+0x265ef0 
+ 635  2 0xffffffffc5665ef8 text+0x265ef8 
+ 636  2 0xffffffffc5665f00 text+0x265f00 
+ 637  2 0xffffffffc5665f08 text+0x265f08 
+ 638  4 0xffffffffc5665f10 text+0x265f10 
+ 639  5 0xffffffffc5665f18 text+0x265f18 
+ 640  8 0xffffffffc5665f20 text+0x265f20 
+ 641  2 0xffffffffc5665f28 text+0x265f28 
+ 642  4 0xffffffffc5665f30 text+0x265f30 
+ 643  1 0xffffffffc5665f38 text+0x265f38 
+ 644  0 0xffffffffc5665760 text+0x265760 
+ 645  0 0xffffffffc5665760 text+0x265760 
+ 646  1 0xffffffffc5665f40 text+0x265f40 
+ 647  1 0xffffffffc5665f48 text+0x265f48 
+ 648  1 0xffffffffc5665f50 text+0x265f50 
+ 649  3 0xffffffffc56655e8 text+0x2655e8 
+ 650  0 0xffffffffc5665760 text+0x265760 
+ 651  0 0xffffffffc5665760 text+0x265760 
+ 652  2 0xffffffffc5665f58 text+0x265f58 
+ 653  1 0xffffffffc5665f60 text+0x265f60 
+ 654  5 0xffffffffc5665f68 text+0x265f68 
+ 655  3 0xffffffffc5665f70 text+0x265f70 
+ 656  2 0xffffffffc56655a0 text+0x2655a0 
+ 657  4 0xffffffffc5665f78 text+0x265f78 
+ 658  1 0xffffffffc5665f80 text+0x265f80 
+ 659  3 0xffffffffc5665580 text+0x265580 
+ 660  2 0xffffffffc5665590 text+0x265590 
+ 661  4 0xffffffffc5665710 text+0x265710 
+ 662  3 0xffffffffc5665718 text+0x265718 
+ 663  5 0xffffffffc5665720 text+0x265720 
+ 664  3 0xffffffffc5665728 text+0x265728 
+ 665  2 0xffffffffc5665730 text+0x265730 
+ 666  3 0xffffffffc5665738 text+0x265738 
+ 667  2 0xffffffffc5665f88 text+0x265f88 
+ 668  2 0xffffffffc5665708 text+0x265708 
+ 669  5 0xffffffffc5665740 text+0x265740 
+ 670  4 0xffffffffc5665748 text+0x265748 
+ 671  4 0xffffffffc5665f90 text+0x265f90 
+ 672  3 0xffffffffc56655a8 text+0x2655a8 
+ 673  4 0xffffffffc5665f98 text+0x265f98 
+ 674  5 0xffffffffc5665fa0 text+0x265fa0 
+ 675  2 0xffffffffc5665458 text+0x265458 
+ 676  0 0xffffffffc5665fa8 text+0x265fa8 
+ 677 3337453144 0xffffffffc565dc28 text+0x25dc28 
+ 678 3337453240 0xffffffffc565dc40 text+0x25dc40 

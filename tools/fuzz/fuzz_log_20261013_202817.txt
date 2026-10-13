@@ -1,0 +1,10 @@
+# PS5 Fuzzer Log — 20261013_202817
+# Source: 192.168.100.254
+
+=== PS5 Syscall 55 Deep Analysis ===
+KNOWN: syscall(55, 0) = kernel panic (NULL deref)
+GOAL: understand what this syscall does
+
+--- Test 1: Zeroed buffer (various sizes) ---
+
+[1.1] BEFORE syscall(55, buf[8]=zeros)

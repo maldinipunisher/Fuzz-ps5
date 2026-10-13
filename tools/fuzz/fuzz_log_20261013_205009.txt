@@ -1,0 +1,16 @@
+# PS5 Fuzzer Log — 20261013_205009
+# Source: 192.168.100.254
+
+=== Deep Crash Analysis: syscall 622 (crashed 0, nargs=6) ===
+nargs=6, TARGET_IDX=2
+
+[01] BEFORE sc=622(buf_ptrs, buf2, buf3, buf4, buf5, buf6)
+[01] ret=0 errno=22 (Invalid argument)
+[01] *** SURVIVED WITH VALID PTRS! ***
+[01] buf3 modified: 3 bytes
+    01 00 0e 80 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+[02] BEFORE sc=622(1, 1, 1, 1, 1, 1)

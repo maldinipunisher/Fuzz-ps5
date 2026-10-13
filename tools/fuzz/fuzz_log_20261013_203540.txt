@@ -1,0 +1,98 @@
+# PS5 Fuzzer Log — 20261013_203540
+# Source: 192.168.100.254
+
+=== PS5 Sony Syscall Safe Fuzzer ===
+Total targets: 133 (excluding syscall 55)
+Skipping first 0 (already tested)
+Each line logged BEFORE syscall
+
+[000] idx=0 sc=65 nargs=3 BEFORE(0,0,0)
+[000] sc=65(0) ret=12 errno=22
+[000] idx=0 sc=65 BEFORE(buf,0x1000,0)
+[000] *** sc=65(buf) = SUCCESS ret=0 ***
+[000] idx=0 sc=65 BEFORE(-1,0,0)
+[001] idx=1 sc=99 nargs=4 BEFORE(0,0,0)
+[001] sc=99(0) ret=22 errno=22
+[001] idx=1 sc=99 BEFORE(buf,0x1000,0)
+[001] idx=1 sc=99 BEFORE(-1,0,0)
+[002] idx=2 sc=101 nargs=2 BEFORE(0,0,0)
+[002] sc=101(0) ret=15 errno=22
+[002] idx=2 sc=101 BEFORE(buf,0x1000,0)
+[002] idx=2 sc=101 BEFORE(-1,0,0)
+[003] idx=3 sc=102 nargs=4 BEFORE(0,0,0)
+[003] sc=102(0) ret=9 errno=22
+[003] idx=3 sc=102 BEFORE(buf,0x1000,0)
+[003] idx=3 sc=102 BEFORE(-1,0,0)
+[004] idx=4 sc=113 nargs=4 BEFORE(0,0,0)
+[004] sc=113(0) ret=47 errno=22
+[004] idx=4 sc=113 BEFORE(buf,0x1000,0)
+[004] idx=4 sc=113 BEFORE(-1,0,0)
+[005] idx=5 sc=114 nargs=1 BEFORE(0,0,0)
+[005] sc=114(0) ret=1 errno=22
+[005] idx=5 sc=114 BEFORE(buf,0x1000,0)
+[005] idx=5 sc=114 BEFORE(-1,0,0)
+[006] idx=6 sc=125 nargs=3 BEFORE(0,0,0)
+[006] sc=125(0) ret=4 errno=22
+[006] idx=6 sc=125 BEFORE(buf,0x1000,0)
+[006] idx=6 sc=125 BEFORE(-1,0,0)
+[007] idx=7 sc=400 nargs=1 BEFORE(0,0,0)
+[007] sc=400(0) ret=22 errno=22
+[007] idx=7 sc=400 BEFORE(buf,0x1000,0)
+[007] idx=7 sc=400 BEFORE(-1,0,0)
+[008] idx=8 sc=401 nargs=1 BEFORE(0,0,0)
+[008] sc=401(0) ret=22 errno=22
+[008] idx=8 sc=401 BEFORE(buf,0x1000,0)
+[008] idx=8 sc=401 BEFORE(-1,0,0)
+[009] idx=9 sc=402 nargs=1 BEFORE(0,0,0)
+[009] sc=402(0) ret=22 errno=22
+[009] idx=9 sc=402 BEFORE(buf,0x1000,0)
+[009] idx=9 sc=402 BEFORE(-1,0,0)
+[010] idx=10 sc=403 nargs=1 BEFORE(0,0,0)
+[010] sc=403(0) ret=22 errno=22
+[010] idx=10 sc=403 BEFORE(buf,0x1000,0)
+[010] idx=10 sc=403 BEFORE(-1,0,0)
+[011] idx=11 sc=404 nargs=2 BEFORE(0,0,0)
+[011] sc=404(0) ret=14 errno=22
+[011] idx=11 sc=404 BEFORE(buf,0x1000,0)
+[011] *** sc=404(buf) = SUCCESS ret=0 ***
+[011] *** INFO LEAK? 1 non-zero bytes ***
+    10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 
+[011] idx=11 sc=404 BEFORE(-1,0,0)
+[012] idx=12 sc=405 nargs=5 BEFORE(0,0,0)
+[012] sc=405(0) ret=14 errno=22
+[012] idx=12 sc=405 BEFORE(buf,0x1000,0)
+[012] idx=12 sc=405 BEFORE(-1,0,0)
+[013] idx=13 sc=406 nargs=1 BEFORE(0,0,0)
+[013] sc=406(0) ret=14 errno=22
+[013] idx=13 sc=406 BEFORE(buf,0x1000,0)
+[013] idx=13 sc=406 BEFORE(-1,0,0)
+[014] idx=14 sc=407 nargs=2 BEFORE(0,0,0)
+[014] sc=407(0) ret=22 errno=22
+[014] idx=14 sc=407 BEFORE(buf,0x1000,0)
+[014] idx=14 sc=407 BEFORE(-1,0,0)
+[015] idx=15 sc=408 nargs=1 BEFORE(0,0,0)
+[015] sc=408(0) ret=22 errno=22
+[015] idx=15 sc=408 BEFORE(buf,0x1000,0)
+[015] idx=15 sc=408 BEFORE(-1,0,0)
+[016] idx=16 sc=421 nargs=1 BEFORE(0,0,0)
+[016] sc=421(0) ret=22 errno=22
+[016] idx=16 sc=421 BEFORE(buf,0x1000,0)
+[016] *** sc=421(buf) = SUCCESS ret=0 ***
+[016] *** INFO LEAK? 139 non-zero bytes ***
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[016] idx=16 sc=421 BEFORE(-1,0,0)
+[017] idx=17 sc=422 nargs=1 BEFORE(0,0,0)
+[017] sc=422(0) ret=22 errno=22
+[017] idx=17 sc=422 BEFORE(buf,0x1000,0)
+[017] idx=17 sc=422 BEFORE(-1,0,0)
+[018] idx=18 sc=423 nargs=2 BEFORE(0,0,0)
+[018] sc=423(0) ret=22 errno=22
+[018] idx=18 sc=423 BEFORE(buf,0x1000,0)
+[018] idx=18 sc=423 BEFORE(-1,0,0)
+[019] idx=19 sc=429 nargs=2 BEFORE(0,0,0)
+[019] sc=429(0) ret=14 errno=22
+[019] idx=19 sc=429 BEFORE(buf,0x1000,0)

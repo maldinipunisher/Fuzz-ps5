@@ -1,0 +1,11 @@
+# PS5 Fuzzer Log — 20261013_203100
+# Source: 192.168.100.254
+
+=== PS5 Syscall 55 v3: Struct Layout ===
+KNOWN: zeroed buffer = crash (secondary NULL deref)
+THEORY: kernel reads pointer from struct
+
+--- Test 1: All qwords = valid pointer ---
+
+[1] BEFORE syscall(55, buf_all_ptrs)
+    buf[0..7]  = 200021000 (-> secondary)

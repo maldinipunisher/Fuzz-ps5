@@ -1,0 +1,50 @@
+# PS5 Fuzzer Log — 20261013_204526
+# Source: 192.168.100.254
+
+=== PS5 Sony Syscall Safe Fuzzer ===
+Total targets: 133 (excluding syscall 55)
+Skipping first 125 (already tested)
+Each line logged BEFORE syscall
+
+[125] idx=125 sc=669 nargs=5 BEFORE(0,0,0)
+[125] sc=669(0) ret=22 errno=22
+[125] idx=125 sc=669 BEFORE(buf,0x1000,0)
+[125] idx=125 sc=669 BEFORE(-1,0,0)
+[126] idx=126 sc=670 nargs=4 BEFORE(0,0,0)
+[126] *** sc=670(0) = SUCCESS ret=0 ***
+[126] idx=126 sc=670 BEFORE(buf,0x1000,0)
+[126] *** sc=670(buf) = SUCCESS ret=0 ***
+[126] idx=126 sc=670 BEFORE(-1,0,0)
+[126] *** sc=670(-1) = SUCCESS ret=0 ***
+[127] idx=127 sc=671 nargs=4 BEFORE(0,0,0)
+[127] sc=671(0) ret=22 errno=22
+[127] idx=127 sc=671 BEFORE(buf,0x1000,0)
+[127] idx=127 sc=671 BEFORE(-1,0,0)
+[128] idx=128 sc=672 nargs=3 BEFORE(0,0,0)
+[128] sc=672(0) ret=1 errno=22
+[128] idx=128 sc=672 BEFORE(buf,0x1000,0)
+[128] idx=128 sc=672 BEFORE(-1,0,0)
+[129] idx=129 sc=673 nargs=4 BEFORE(0,0,0)
+[129] sc=673(0) ret=22 errno=22
+[129] idx=129 sc=673 BEFORE(buf,0x1000,0)
+[129] idx=129 sc=673 BEFORE(-1,0,0)
+[130] idx=130 sc=674 nargs=5 BEFORE(0,0,0)
+[130] sc=674(0) ret=22 errno=22
+[130] idx=130 sc=674 BEFORE(buf,0x1000,0)
+[130] idx=130 sc=674 BEFORE(-1,0,0)
+[131] idx=131 sc=675 nargs=2 BEFORE(0,0,0)
+[131] *** sc=675(0) = SUCCESS ret=0 ***
+[131] idx=131 sc=675 BEFORE(buf,0x1000,0)
+[131] *** sc=675(buf) = SUCCESS ret=0 ***
+[131] idx=131 sc=675 BEFORE(-1,0,0)
+[131] *** sc=675(-1) = SUCCESS ret=0 ***
+[132] idx=132 sc=676 nargs=0 BEFORE(0,0,0)
+[132] sc=676(0) ret=78 errno=22
+[132] idx=132 sc=676 BEFORE(buf,0x1000,0)
+[132] idx=132 sc=676 BEFORE(-1,0,0)
+
+=== RESULTS ===
+Tested: 8 syscalls
+Crashes (SIGNAL): 0
+Success (ret=0): 2
+Any CRASH or INFO LEAK = investigate further!

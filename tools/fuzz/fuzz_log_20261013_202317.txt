@@ -1,0 +1,9 @@
+# PS5 Fuzzer Log — 20261013_202317
+# Source: 192.168.100.254
+
+=== PS5 Targeted Fuzzer: Syscall 55 ===
+
+Each line logged BEFORE the syscall.
+Last line = crash trigger.
+
+[01/18] BEFORE syscall(55, 0x0) [NULL/zero]
